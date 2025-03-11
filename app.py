@@ -9,6 +9,7 @@ from api import blueprint
 from api.errors import internal_error_handler, not_found_error_handler
 from application import ApplicationConfig
 from scheduler import register_jobs
+from utils import flask_scheduler
 
 load_dotenv()
 
@@ -16,7 +17,6 @@ server = Flask(__name__)
 server.config.from_object(ApplicationConfig())
 server.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
-flask_scheduler = APScheduler()
 flask_scheduler.init_app(server)
 flask_scheduler.start()
 
