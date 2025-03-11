@@ -158,3 +158,6 @@ output/*
 
 # playground / local testing
 playground.py
+
+# credentials
+credentials/
