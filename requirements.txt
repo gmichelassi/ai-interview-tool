@@ -1,5 +1,7 @@
+annotated-types==0.7.0
 APScheduler==3.11.0
 astroid==3.3.9
+attrs==25.2.0
 blinker==1.9.0
 cachetools==5.5.2
 certifi==2025.1.31
@@ -21,6 +23,7 @@ google-auth==2.38.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.1
 googleapis-common-protos==1.69.1
+h11==0.14.0
 httplib2==0.22.0
 idna==3.10
 isort==6.0.1
@@ -29,6 +32,7 @@ Jinja2==3.1.6
 MarkupSafe==3.0.2
 mccabe==0.7.0
 oauthlib==3.2.2
+outcome==1.3.0.post0
 packaging==24.2
 pep8-naming==0.10.0
 platformdirs==4.3.6
@@ -38,6 +42,8 @@ protobuf==5.29.3
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pycodestyle==2.12.1
+pydantic==2.10.6
+pydantic_core==2.27.2
 pydocstyle==6.3.0
 pyflakes==3.2.0
 pylint==3.3.5
@@ -46,6 +52,7 @@ pylint-django==2.6.1
 pylint-flask==0.6
 pylint-plugin-utils==0.8.2
 pyparsing==3.2.1
+PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 PyYAML==6.0.2
@@ -53,16 +60,25 @@ requests==2.32.3
 requests-oauthlib==2.0.0
 requirements-detector==1.3.2
 rsa==4.9
+selenium==4.29.0
 semver==3.0.4
 setoptconf-tmp==0.3.1
 setuptools==75.8.0
 six==1.17.0
 smmap==5.0.2
+sniffio==1.3.1
 snowballstemmer==2.2.0
+sortedcontainers==2.4.0
 toml==0.10.2
 tomlkit==0.13.2
+trio==0.29.0
+trio-websocket==0.12.2
+typing_extensions==4.12.2
 tzlocal==5.3.1
 uritemplate==4.1.1
 urllib3==2.3.0
+webdriver-manager==4.0.2
+websocket-client==1.8.0
 Werkzeug==3.1.3
 wheel==0.45.1
+wsproto==1.2.0
