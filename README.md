@@ -10,7 +10,11 @@ pip install -r requirements.txt
 
 ### Run the app:
 ```bash
-python app.py
+python app.py # server
+```
+
+```
+python playground.py # client, schedule interview
 ```
 
 ### Code Analysis:

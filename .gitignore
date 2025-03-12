@@ -156,8 +156,5 @@ chromadb
 output/*
 !output/.gitkeep
 
-# playground / local testing
-playground.py
-
 # credentials
 credentials/

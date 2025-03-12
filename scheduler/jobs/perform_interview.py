@@ -12,4 +12,7 @@ def perform_interview(candidate_email: str, meeting_url: str):
 
     log.warning('The realtime conversation should happen here.')
 
+    import time
+    time.sleep(60 * 60)
+
     meeting_controller.quit()
