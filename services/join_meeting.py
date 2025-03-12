@@ -36,7 +36,7 @@ def build_selenium_driver():
 
     options = webdriver.ChromeOptions()
 
-    options.add_argument("--use-fake-ui-for-media-stream")
+    # options.add_argument("--use-fake-ui-for-media-stream")
     options.add_argument("--use-fake-device-for-media-stream")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
