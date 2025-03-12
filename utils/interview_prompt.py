@@ -43,7 +43,7 @@ Languages: English (Native),
 - Jan. 2024 - Atualmente
 
 Activities:
-- Development of web systems for clients;
+- Development of web systems for clients with Angular.js;
 - Participation in strategic planning;
 - Leadership of a team in the development of an e-commerce;
 
@@ -53,7 +53,7 @@ Activities:
 - Jan. 2024 - Dec. 2024
 
 Activities:
-- Development of internal systems using the Power Apps platform;
+- Development of internal systems using React and Ruby on Rails;
 - Use of agile methodologies Scrum and Kanban;
 
 # Academic Information
